@@ -48,6 +48,11 @@ html {
   margin-left: 20px;
 }
 
+.logo a {
+  text-decoration: none;
+  color: #eee;
+}
+
 /* cabeçalho menu */
 #menu {
   display: flex;
@@ -271,7 +276,7 @@ html {
   background-color: #eee;
   width: 100%;
   padding: 40px;
-  border-radius: 5px;
+  border-radius: 10px;
   align-items: center;
   justify-content: space-around;
 }
@@ -291,4 +296,82 @@ html {
   text-decoration: none !important ;
   color: #0f2e00b7;
   text-decoration: none;
+}
+
+/* contatos */
+
+#contatos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(122, 122, 238, 0.418);
+  flex-direction: column;
+  padding: 60px;
+}
+
+#contatos i {
+  margin-left: 10px;
+}
+
+#photo {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.fotos img {
+  width: 25%;
+  border-radius: 25px;
+  margin-left: 1px auto;
+}
+
+/* sobre nos */
+#notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  background: linear-gradient(120deg, #06e436d8, #169af1da);
+}
+
+#notes-container {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+}
+
+.texto2 {
+  color: #111;
+  font-size: 1.9rem;
+  font-family: sans-serif;
+}
+
+.texto3 {
+  background-color: #111;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+#final {
+  margin-top: 50px;
+  width: 100%;
+  color: #eee;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* rodape */
+#rodape {
+  background: #222;
+  color: #eee;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-weight: lighter;
+  font-style: italic;
 }
