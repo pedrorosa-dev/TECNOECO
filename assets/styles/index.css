@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+/* cabeçalho fundo dele */
+#navbar {
+  background: linear-gradient(120deg, #0f0f0fde, #000000ce);
+  color: #eee;
+  width: 100%;
+  padding: 10px;
+  height: 60 px;
+  position: fixed;
+}
+
+/* cabeçalho dentro dele */
+#navbar-container {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+/* animar */
+@keyframes efeito {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+/* cabeçalho logo */
+.logo {
+  font-size: 2.2rem;
+  background: linear-gradient(120deg, #2eee07d8, #0adae9da);
+  animation: efeito 10s linear alternate;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: 20px;
+}
+
+/* cabeçalho menu */
+#menu {
+  display: flex;
+  padding: 20px;
+  gap: 25px;
+  margin-right: 30px;
+}
+
+#menu a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+#menu a:hover {
+  background: #eee;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 1.2s;
+  cursor: pointer;
+}
+
+/* banner showcase */
+#banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/assets/img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#banner-container {
+  text-align: center;
+}
+
+/* letras do banner */
+#banner-container {
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 70px;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+/* titulo meio e ambiente */
+.title {
+  font-weight: lighter;
+  font-weight: bold;
+  margin-bottom: 40px;
+  background: linear-gradient(120deg, #64e60ea1, #015205);
+  padding: 26px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.title-2 {
+  color: #032504;
+}
+
+/* descrição */
+.description {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  margin: auto;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.title-3 {
+  background: rgba(0, 0, 0, 0.178);
+  font-style: italic;
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* saiba mais */
+#mais {
+  margin-top: 140px;
+  background: #11111128;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#mais a {
+  text-decoration: none;
+  font-weight: lighter;
+  font-weight: bold;
+  color: #eee;
+  font-size: 35px;
+}
+
+#mais a:hover {
+  background-color: #eee;
+  color: #111111ea;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  transition: 1.2s;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* sessao saiba mais */
+#saibamais {
+  background: #dfdede;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.headline {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: oblique;
+  letter-spacing: 2px;
+}
+
+#saibamais-content {
+  width: 60%;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
+  background: #eee;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.texto {
+  color: #000000;
+}
+
+/* missao */
+#objetivo {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+#objetivo-container {
+  width: 60%;
+}
+
+#objetivo i {
+  margin-left: 10px;
+}
+
+#saibamais i {
+  margin-left: 10px;
+}
+
+.texto p {
+  font-size: 1.5rem;
+}
+
+/* serviços */
+#servicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2a80024b;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#servicos i {
+  margin-left: 10px;
+}
+
+#text-servico {
+  margin-bottom: 40px;
+  width: auto;
+  color: #111;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(120deg, #0963015e, #10e63eb2);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.menu-servicos {
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+
+#servicos-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pontos {
+  font-weight: bold;
+  color: #0f2e00b7;
+  font-size: 20px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: #eee;
+  width: 100%;
+  padding: 40px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pontos a:hover {
+  background: #11111167;
+  color: #eee;
+  width: 100%;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.pontos a {
+  text-decoration: none !important ;
+  color: #0f2e00b7;
+  text-decoration: none;
+}
