@@ -383,6 +383,7 @@ html {
   font-weight: bold;
   font-weight: lighter;
   font-style: italic;
+  position: relative;
 }
 
 #dono {

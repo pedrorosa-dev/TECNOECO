@@ -65,7 +65,7 @@ html {
   color: #eee;
   text-decoration: none;
   font-size: 1.3rem;
-  margin: 20px;
+  margin: 50px;
 }
 
 #menu a:hover {
@@ -148,6 +148,7 @@ body {
   margin-bottom: 40px;
   font-family: sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .descricao {
@@ -170,7 +171,7 @@ body {
 .botao {
   display: flex;
   justify-content: center;
-  margin-top: 17%;
+  margin-top: 12%;
 }
 
 .btn:hover {
@@ -178,4 +179,50 @@ body {
   background-color: #111;
   color: whitesmoke;
   transition: 0.6s;
+}
+
+/* rodape */
+#rodape {
+  margin-top: 20px;
+  background: #222;
+  color: #eee;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-weight: lighter;
+  font-style: italic;
+  position: relative;
+}
+
+#dono {
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#background-footer {
+  background: #e0e0e011;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#redes {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #0152054c;
+  margin-bottom: 20px;
+}
+
+#redes a {
+  color: #eee;
+}
+
+#redes a:hover {
+  cursor: pointer;
+  background-color: #f1f4f1;
+  color: green;
+  transition: 0.4s;
+  border-radius: 3px;
 }
