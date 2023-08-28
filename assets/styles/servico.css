@@ -44,7 +44,6 @@ html {
   animation: efeito 10s linear alternate;
   padding: 5px;
   border-radius: 5px;
-  width: fit-content;
   margin-left: 20px;
 }
 
