@@ -103,10 +103,10 @@
     margin-right: 10px;
   }
   #contatos .headline {
-    margin-left: 18%;
+    margin-left: 7%;
   }
   #contatos i {
-    margin-left: 37%;
+    margin-left: 42%;
     margin-top: 20px;
   }
   #photo {
@@ -139,7 +139,7 @@
     margin-bottom: 50px;
   }
   .texto2 {
-    font-size: 22px;
+    font-size: 19px;
     background-color: #0000000e;
     font-weight: bold;
     border-radius: 7px;
@@ -150,6 +150,6 @@
   }
   .texto3 {
     color: #000000;
-    font-size: 15px;
+    font-size: 12px;
   }
 }
