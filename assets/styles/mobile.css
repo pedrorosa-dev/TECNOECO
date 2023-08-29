@@ -1,0 +1,141 @@
+@media (max-width: 450px) {
+  #navbar {
+    height: 200px;
+    position: unset;
+    background: rgba(0, 0, 0, 0.9);
+    height: 225px;
+    box-shadow: none;
+  }
+  #navbar-container {
+    height: 30px;
+    width: auto;
+  }
+  .logo {
+    margin-left: 1px;
+    margin-top: 80px;
+    height: 70px;
+    width: fit-content;
+  }
+  .logo a {
+  }
+  #menu {
+    margin: auto;
+    width: auto;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #menu li {
+    width: fit-content;
+  }
+  #banner-container {
+    margin-top: 70px;
+    box-sizing: content-box;
+  }
+  .description {
+    text-align: center;
+  }
+  #mais {
+    margin: auto;
+    margin-top: 49px;
+  }
+  #mais a:hover {
+    background: none;
+    color: #0ddd45;
+  }
+  #saibamais {
+    box-sizing: content-box;
+  }
+  .headline {
+    margin-bottom: 110px;
+  }
+  #saibamais-content {
+    width: 100%;
+    justify-content: start;
+    background-color: #e0dfdf65;
+  }
+  .texto {
+    color: #000000;
+    width: 100%;
+  }
+  #objetivo {
+    margin-bottom: 100px;
+  }
+  #objetivo-container {
+    width: 100%;
+    justify-content: start;
+  }
+  #servicos {
+    width: 100%;
+  }
+  #servicos-container {
+    width: 100%;
+  }
+  #text-servico {
+    width: 100%;
+    color: black;
+    margin-bottom: 100px;
+    height: 200px;
+  }
+  #text-servico h6 {
+    align-items: center;
+    margin-top: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 10px;
+  }
+  .menu-servicos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .pontos {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+  }
+  #contatos i {
+    margin-left: 42%;
+    margin-top: 20px;
+  }
+  #photo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 50px;
+  }
+  .fotos {
+    margin: auto;
+    margin-right: 50px;
+  }
+  .fotos img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  #notes {
+    width: 100%;
+  }
+  #notes .headline {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #notes-container {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .texto2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #final {
+    color: #000000;
+  }
+  .texto3 {
+    color: #000000;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,35 @@
+@media (max-width: 450px) {
+  #navbar {
+    height: 60px;
+  }
+  #navbar-container {
+    height: 30px;
+    width: auto;
+  }
+  .logo {
+    margin: auto;
+    height: 36px;
+    width: 90%;
+  }
+  .logo a {
+  }
+  #menu {
+    margin: auto;
+    width: 100%;
+    margin-left: 20px;
+  }
+  #products {
+    margin-top: 10px;
+    padding: 40px;
+  }
+  .headline {
+    margin-bottom: 10px;
+  }
+  #montar {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* finalizado */
