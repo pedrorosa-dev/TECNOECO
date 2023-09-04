@@ -1,6 +1,5 @@
 @media (max-width: 760px) {
   #navbar {
-    height: 200px;
     position: unset;
     background: rgba(0, 0, 0, 0.9);
     height: 225px;
@@ -56,6 +55,7 @@
     background-color: #e0dfdf65;
   }
   .texto {
+    height: 200px;
     color: #000000;
     width: 100%;
   }
