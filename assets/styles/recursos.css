@@ -101,3 +101,28 @@ body {
   padding: 10px;
   border-radius: 8px;
 }
+
+.temas {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(0, 0, 0, 0.114);
+  padding: 50px;
+  border-radius: 4px;
+}
+
+.fundo_tema {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  border-radius: 4px;
+  background-color: rgba(0, 255, 255, 0.134);
+}
+
+.texto_tema {
+  width: 100%;
+  margin-bottom: 40px;
+}
