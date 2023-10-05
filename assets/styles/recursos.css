@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+/* cabeçalho fundo dele */
+#navbar {
+  background: linear-gradient(120deg, #0f0f0fde, #000000ce);
+  color: #eee;
+  width: 100%;
+  padding: 10px;
+  height: 60px;
+  position: fixed;
+}
+
+/* cabeçalho dentro dele */
+#navbar-container {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+/* animar */
+@keyframes efeito {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+/* cabeçalho logo */
+.logo {
+  font-size: 2.2rem;
+  background: linear-gradient(120deg, #2eee07d8, #0adae9da);
+  animation: efeito 10s linear alternate;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #eee;
+}
+
+/* cabeçalho menu */
+#menu {
+  display: flex;
+  padding: 20px;
+  gap: 25px;
+  margin-right: 30px;
+}
+
+#menu a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: 50px;
+}
+
+#menu a:hover {
+  background: #eee;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 1.2s;
+  cursor: pointer;
+}
+
+body {
+  background: #bcbaba92;
+}
+
+#recurso {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(230, 230, 230, 0.504);
+}
+
+.headline {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: oblique;
+  letter-spacing: 2px;
+  background-color: rgba(124, 255, 76, 0);
+  padding: 10px;
+  border-radius: 8px;
+}
