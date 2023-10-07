@@ -85,7 +85,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(230, 230, 230, 0.504);
+  background: rgba(230, 230, 230, 0.155);
 }
 
 .headline {
@@ -104,11 +104,11 @@ body {
 
 .temas {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 0px;
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
-  background-color: rgba(0, 0, 0, 0.114);
+  background-color: rgba(0, 0, 0, 0);
   padding: 50px;
   border-radius: 4px;
 }
@@ -119,10 +119,85 @@ body {
   justify-content: center;
   padding: 60px;
   border-radius: 4px;
-  background-color: rgba(0, 255, 255, 0.134);
+  background-color: rgba(122, 126, 126, 0.062);
 }
 
 .texto_tema {
-  width: 100%;
+  width: 64%;
   margin-bottom: 40px;
+  font-size: 22px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
+  background: #eee;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+
+#fundo_topico {
+  background: linear-gradient(120deg, #252525d8, #000000da);
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.card {
+  background-color: rgba(2, 2, 2, 0.274);
+  width: 16%;
+  padding: 50px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo-card {
+  margin-bottom: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #eee;
+  letter-spacing: 2px;
+}
+
+.fundo_card {
+  background-color: rgba(46, 46, 45, 0.322);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-sizing: content-box;
+}
+
+.fundo_titulo {
+  background: linear-gradient(120deg, #1b1b1ad8, #494848da);
+  padding: 35px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.fundo_titulo h3 {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.card:hover {
+  background-color: #063a11;
+  color: #1b1b1ad8;
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
+  transition: 1.2s;
+  .fundo_titulo {
+    background-color: rgb(33, 161, 22);
+  }
+  .fundo_card {
+    background-color: #011301ab;
+    color: #f0f0f0;
+    transition: 1.5s;
+  }
 }
