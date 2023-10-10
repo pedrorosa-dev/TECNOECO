@@ -136,17 +136,17 @@ body {
 #fundo_topico {
   background: linear-gradient(120deg, #252525d8, #000000da);
   padding: 40px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
 }
 
 .card {
   background-color: rgba(2, 2, 2, 0.274);
-  width: 16%;
+  width: 60%;
   padding: 50px;
   display: flex;
+  margin-left: 40px;
   border-radius: 10px;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
   align-items: center;
@@ -203,11 +203,11 @@ body {
   }
 }
 
-#tema_2{
+#tema_2 {
   background-color: rgba(17, 16, 16, 0.089);
 }
 
-#fundo_tema2{
+#fundo_tema2 {
   background: linear-gradient(120deg, #c3c3bdd8, #494848da);
   padding: 100px;
   display: flex;
@@ -216,21 +216,19 @@ body {
   justify-content: space-between;
 }
 
-.texto_tema2{
-  background-color:rgb(218, 213, 213) ;
+.texto_tema2 {
+  background-color: rgb(218, 213, 213);
   padding: 60px;
-  box-shadow: 5px 5px 8px rgb(0, 0, 0,0.4);
+  box-shadow: 5px 5px 8px rgb(0, 0, 0, 0.4);
   padding-bottom: 50px;
-  width:50%;
+  width: 50%;
   border-radius: 4px;
   display: flex;
   justify-content: center;
 }
 
-.texto_tema2 h3{
+.texto_tema2 h3 {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
-
 }
-
