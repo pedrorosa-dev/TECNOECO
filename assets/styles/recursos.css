@@ -260,3 +260,9 @@ body {
 span {
   font-weight: bold;
 }
+
+#fundo_galeria {
+  background-color: green;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
