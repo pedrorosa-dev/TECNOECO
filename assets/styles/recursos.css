@@ -261,8 +261,11 @@ span {
   font-weight: bold;
 }
 
-#fundo_galeria {
+#galeria {
   background-color: green;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 2fr);
+}
+#galeria img {
+  border-radius: 5%;
 }
