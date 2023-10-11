@@ -76,7 +76,6 @@ html {
   cursor: pointer;
 }
 
-
 #banner {
   width: 100%;
   height: 100vh;
@@ -84,7 +83,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(/assets/img/banner.jpg);
+  background-image: url(/TECNOECO/assets/img/banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
