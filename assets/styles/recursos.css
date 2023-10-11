@@ -13,7 +13,6 @@ html {
 #navbar {
   background: linear-gradient(120deg, #0f0f0fde, #000000ce);
   color: #eee;
-  width: 100%;
   padding: 10px;
   height: 60px;
   box-sizing: border-box;
